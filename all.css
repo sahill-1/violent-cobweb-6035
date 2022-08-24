@@ -1,0 +1,50 @@
+#Dream{
+    border: 1px solid red;
+    width: 70%;
+    height: 600px;
+    margin: auto;
+}
+#Fund{
+    width: auto;
+    height: 110px;
+    border: 1px solid red;
+}
+#Fund>p{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+#two{
+    display:  grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+}
+#two>div{
+    border: 1px solid red;
+    width: 420px;
+    height: 440px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#two>div>p{
+    font-size: 20px;
+    text-align: center;
+
+}
+#nor{
+    text-align: left;
+    justify-content: left;
+}
+#hi{
+    text-align: left;
+    font-weight: bold;
+}
+
+#re{
+    color:  #eb1478;
+    font-size: 7px;
+    text-align: center;
+}
+    
+
