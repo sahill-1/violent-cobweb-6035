@@ -3,7 +3,6 @@
     width: 70%;
     height: 600px;
     margin: auto;
-    margin-top: 700px;
 }
 #Fund{
     width: auto;
@@ -384,44 +383,4 @@ justify-content: left;
    color: white;
    display: flex;
    width: 100%;
-}
-
-
-.offers {
-    border: 1px solid transparent;
-    width: 98%;
-    margin: auto;
-    height: 270px;
-    margin-top: 15px;
-
-
-}
-
-#many_offers {
-    width: 100%;
-    margin: auto;
-    height: 400px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    border: 1px solid red;
-}
-
-#many_offers>div {
-    border: 2px solid red;
-    width: 310%;
-    height: 390px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-}
-
- .carousel-cell{
-    width: auto;
-}
-
-.carousel-cell:before {
-    display: block;
 }
