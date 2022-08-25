@@ -1,14 +1,13 @@
-/* *{
+#firstDay{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif ;
-} */
+}
 .img-slider{
     position: relative;
     width: 100%;
-    height: 100px;
-    
+    height: 100px; 
 }
 
 .img-slider .slide{
@@ -97,3 +96,137 @@
     background: black;
     box-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
+
+/* Second div */
+
+#secondDIV{
+    margin-top: 380px;
+    text-align: center;
+}
+#seconddivheading{
+    font-size: 40px;
+}
+#seconddivtitle{
+    font-size: 18px;
+    margin-top: -20px;
+    color: 
+    #444444;
+}
+#butttonone{
+    width: 150px;
+    height: 40px;
+    background-color: #e73e9b;
+    color: white;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 1px;
+}
+#butttontwo{
+    width: 150px;
+    height: 40px;
+    margin-left: 15px;
+    color: #e73e9b;
+    letter-spacing: 1px;
+    background-color: white;
+    border:1px solid grey;
+}
+#butttonone:hover{
+    background-color: #e51075;
+}
+/* 
+Third DIV */
+#thirdDIV{
+    font-size: 27px;
+    color: #444444;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+/* FourthDIV */
+#fourthdiv{
+    width: 94%;;
+    margin: auto;
+    border: 1px solid transparent;
+    display: flex;
+}
+.randomclass{
+    width: 292px;
+    border: 1px solid transparent;
+    padding-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.imagefourthDIV{
+    height: 260px;
+    width: 290px;
+    border: 1px solid transparent;
+}
+.imagefourthDIV img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.firstLinee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstLinee p{
+    font-size: 18px;
+    color: #088397;
+    margin-left: 8px;
+}
+.firstLinee img{
+    width: 32px;
+    height: 33px;
+    margin-right: 5px
+}
+.secondLinee{
+    margin-top: -5px;
+    margin-left: 8px;
+    font-size: 20px;
+}
+.thirdLinee{
+    margin-top: -12px;
+    margin-left: 8px;
+    color: #444444;
+    font-size: 14px;
+    margin-right: 0px;
+    line-height: 18px;
+}
+.fourthLinee{
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #444444;
+}
+.dollarline{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: -23px;
+}
+.dollarline p:first-child{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -25px;
+}
+.dollarline p:nth-child(2){
+    margin-left: -65px;
+    font-size: 13px;
+}
+.dollarline p:last-child{
+    color: #676f86
+}
+.timeWatch{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 9px;
+    margin-top: -20px;
+}
+.timeWatch img{
+    width: 23px;
+    height: 23px;
+    padding-right: 5px;
+}
+
+
