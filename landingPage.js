@@ -51,4 +51,7 @@ var repeat = function(activeClass){
 }
 repeat();
 
+//card slider
+
+
 

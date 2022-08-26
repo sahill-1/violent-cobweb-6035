@@ -133,37 +133,80 @@
 #butttonone:hover{
     background-color: #e51075;
 }
-/* 
-Third DIV */
-#thirdDIV{
-    font-size: 27px;
-    color: #444444;
-    margin-left: 55px;
-    margin-top: 40px;
-}
-/* FourthDIV */
-#fourthdiv{
-    width: 94%;;
-    margin: auto;
-    border: 1px solid transparent;
+
+/* ThirdDIV */
+main header{
+    width: 96%;
+    height: 60px;
+    margin: 0 auto;
+    align-items: center;
     display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd; 
 }
-.randomclass{
+header p span{
+    font-size: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #555;
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+section{
+    width: 96%;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+section::-webkit-scrollbar{
+    display: none;
+}
+@media(max-width: 768px){
+    header h1{
+        font-size: 25px;
+    }
+    header p span{
+        font-size: 30px;
+    }
+    section .product{
+        min-width: 50%;
+        margin: 0 10px 0 0;
+    }
+}
+header p span:hover {
+    background: #222;
+    color: white;
+}
+.product{
     width: 292px;
+    height: 560px;
     border: 1px solid transparent;
     padding-right: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
 }
 .imagefourthDIV{
     height: 260px;
     width: 290px;
     border: 1px solid transparent;
+    display: flex;
+    overflow: hidden;
 }
-.imagefourthDIV img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+    /* .imagefourthDIV img{
+        height: 100%;
+        width: 100%;
+    } */
 .firstLinee{
     display: flex;
     align-items: center;
@@ -180,12 +223,14 @@ Third DIV */
     margin-right: 5px
 }
 .secondLinee{
+    border: 1px solid transparent;
     margin-top: -5px;
     margin-left: 8px;
     font-size: 20px;
 }
 .thirdLinee{
-    margin-top: -12px;
+    border: 1px solid transparent;
+    margin-top: 12px;
     margin-left: 8px;
     color: #444444;
     font-size: 14px;
@@ -203,6 +248,7 @@ Third DIV */
     justify-content: space-around;
     align-items: baseline;
     margin-top: -23px;
+    margin-left: -10px;
 }
 .dollarline p:first-child{
     font-size: 20px;
@@ -210,11 +256,12 @@ Third DIV */
     margin-left: -25px;
 }
 .dollarline p:nth-child(2){
-    margin-left: -65px;
+    margin-left: -85px;
     font-size: 13px;
 }
 .dollarline p:last-child{
-    color: #676f86
+    color: #676f86;
+    margin-right: -25px;
 }
 .timeWatch{
     display: flex;
@@ -228,5 +275,6 @@ Third DIV */
     height: 23px;
     padding-right: 5px;
 }
+
 
 
