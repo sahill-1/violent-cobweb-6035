@@ -370,16 +370,20 @@ justify-content: left;
 }
 #social{
     width: 82%;
-    border: 1px solid white;
-    height: 60px;
+    border: 1px solid red;
+    height: 70px;
     margin: auto;
     margin-top: 15px;
-    display: grid;
+    display: grid;    
     grid-template-columns: repeat(10,1fr);
 }
 #social>div{
-    border: 1px solid white;
+    border: 1px solid red;
+    
 }
+
+
+
 #foot-iv{
    color: white;
    display: flex;
@@ -400,7 +404,7 @@ justify-content: left;
 #many_offers {
     width: 100%;
     margin: auto;
-    height: 400px;
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -410,7 +414,7 @@ justify-content: left;
 #many_offers>div {
     border: 2px solid red;
     width: 310%;
-    height: 390px;
+    height: 500px;
     text-align: center;
     border-radius: 10px;
     background-color: white;
@@ -425,3 +429,4 @@ justify-content: left;
 .carousel-cell:before {
     display: block;
 }
+
