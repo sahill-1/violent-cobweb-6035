@@ -26,7 +26,7 @@ form.addEventListener("submit", (event) => {
     localStorage.setItem("login", "true");
     alert("Login successful!");
     form.reset();
-    window.location.href = "landingpage.html";
+    window.location.href = "../index.html";
   } else {
     alert("Wrong credentials");
     form.reset();
