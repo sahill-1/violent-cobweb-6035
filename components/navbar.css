@@ -1,11 +1,12 @@
-* {
+/* * {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
   font-family: benton-sans, Helvetica, "Sans-serif";
-}
+} */
 
 #navbar {
+  color: grey;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,4 +28,8 @@
 #navbar h3:hover {
   cursor: pointer;
   color: rgb(247, 124, 144);
+}
+.right a{
+  text-decoration: none;
+  color: grey;
 }
