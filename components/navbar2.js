@@ -1,7 +1,6 @@
 function mynavbar(){
-    return `<div id="navbar2">
-    <div class="left2">
-        <img src="logo.png" alt="">
+    return `<div class="left2">
+        <img src="./components/logo.png" alt="">
         <p>For Entrepreneur </p>
         <select name="" id="">
             <option value="" hidden>How it works</option>
@@ -30,7 +29,6 @@ function mynavbar(){
         <button>Start a Campaign</button>
         <h3>Log In</h3>
         <h3>Sign Up</h3>
-    </div>
 </div>`
 }
 export default mynavbar;
