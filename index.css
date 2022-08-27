@@ -1,3 +1,129 @@
+/* footer */
+#footer{
+    width: 94%;
+    height: 370px;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: -7px;
+    background-color: whitesmoke;
+
+}
+.top{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border: 1px solid transparent;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.divonne{
+    width: 10%;
+    border: 1px solid transparent;
+    margin-top: 30px;
+    
+}
+.divonne h3{
+    color:
+   #6a6a6a ;
+}
+.divonne p{
+    margin-top: -6px; color: #2a2f33;
+}
+.divonne p:hover{
+    width: fit-content;
+    border-bottom: 1px solid grey;
+}
+.divtwwo{
+    width: 20%;
+    border: 1px solid transparent;
+    margin-top: 30px;
+}
+.divtwwo h3{
+    color:
+   #6a6a6a ;
+}
+.divtwwo p{
+    margin-top: -6px; color: #2a2f33;
+}
+.divtwwo p:hover{
+    width: fit-content;
+    border-bottom: 1px solid grey;
+}
+.divthreee{
+    width: 20%;
+    border: 1px solid transparent;
+    margin-top: 30px;
+}
+.divthreee h3{
+    color:
+   #6a6a6a ;
+}
+.divthreee p{
+    margin-top: -6px; color: #2a2f33;
+}
+.divthreee p:hover{
+    width: fit-content;
+    border-bottom: 1px solid grey;
+}
+
+.divfouur{
+    width: 30%;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 45px;
+}
+#divfouurhthree{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2px;
+
+}
+#divfouurptwo{
+    letter-spacing: 0.25px;
+    font-size: 19px;
+    margin-top: -8px;
+}
+#divfourinput{
+    width: 260px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 14px;
+    border:1px solid grey;
+}
+#divfourinput:hover{
+    border: 1px solid grey;
+}
+#divfourbutton{
+    width: 260px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 14px;
+    border:1px solid grey;
+    color: white;
+    background-color: #e51075;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #firstDay{
     padding: 0;
     margin: 0;
@@ -188,7 +314,7 @@ header p span:hover {
 }
 .product{
     width: 280px;
-    height: 630px;
+    height: 620px;
     border: 1px solid transparent;
     padding-right: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -284,7 +410,7 @@ header p span:hover {
     height: 900px;
     border: 1px solid transparent;
     margin: auto;
-    /* margin-top: 10px; */
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px 20px;
