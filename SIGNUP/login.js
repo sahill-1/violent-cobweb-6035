@@ -1,3 +1,8 @@
+import myNavbar from "../components/navbar.js";
+console.log(myNavbar);
+
+let container = document.getElementById("navbar");
+container.innerHTML = myNavbar();
 let formData = JSON.parse(localStorage.getItem("formdetail")) || [];
 const form = document.querySelector("form");
 

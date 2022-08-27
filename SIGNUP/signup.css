@@ -3,12 +3,12 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body {
+#parent {
   width: 35%;
   margin: auto;
   font-family: 16px Helvetica, sans-serif;
 }
-body > a {
+#parent > a {
   margin-left: 500px;
   text-decoration: none;
 }

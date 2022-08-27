@@ -1,3 +1,8 @@
+import myNavbar from "../components/navbar.js";
+console.log(myNavbar);
+
+let container = document.getElementById("navbar");
+container.innerHTML = myNavbar();
 class FormData {
   constructor(F, L, E, P, C1, C2) {
     this.first_name = F;
