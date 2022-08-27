@@ -294,9 +294,9 @@ hr{
 }
 
 #footer{
-    border: 1px solid red;
+    border: 5px solid transparent;
     width: 100%;
-    height: 800px;
+    height: 570px;
     background-color: black;
 }
 #foot-i{
@@ -342,9 +342,6 @@ justify-content: left;
     color: white;
 font-size: 18px;
 justify-content:space-between;
-padin
-
-
 justify-content: left;
 }
 
@@ -373,7 +370,7 @@ justify-content: left;
 }
 #social{
     width: 60%;
-    border: 1px solid transparent;
+    border: 5px solid transparent;
     height: 70px;
 margin-left: 65px;
     margin-top: 15px;
@@ -447,3 +444,46 @@ margin-left: 65px;
     display: block;
 }
 
+#last{
+    border: 5px solid transparent;
+    width: 100%;
+    
+}
+#right{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 60px;
+}
+#right-i{
+    border: 1px solid transparent;
+    width: 92%;
+    margin: auto;
+    height: 35px;
+    display: flex;
+    color: #789486;
+    gap: 20px;
+    
+}
+#policy{
+    color: #789486;
+    margin-left: 630px;
+}
+#sell{
+    border: 1px solid transparent;
+    width: 92%;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    color: #789486;
+    margin-top: 10px;
+    
+}
+#cmpny{
+    width: 130px;
+    height: 50px;
+    margin-left: 850px;
+}
+#dag{
+    width: 92%;
+    margin: auto;
+}
