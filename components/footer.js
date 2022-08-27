@@ -26,7 +26,7 @@ function myFooter() {
         <p>China</p>
     </div>
     <div>
-        <img src="email.png" alt="">
+        <img src="./components/email.png" alt="">
         <h3>Find it first on Indiegogo</h3>
         <p>Discover new and clever products in the Indiegogo newsletter</p>
         <input type="text" name="" id="" placeholder="Your email address">

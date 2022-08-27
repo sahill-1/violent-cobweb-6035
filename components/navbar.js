@@ -7,7 +7,7 @@ function myNavbar() {
     <img src="search.png" alt="">
 </div>
 <div class="right">
-    <h3> <a href="../SIGNUP/signup.html">Start a Campaign</a></h3>
+    <h3> <a href="how_to_works.html">Start a Campaign</a></h3>
     <h3>What We Do</h3>
     <h3><a href="../SIGNUP/login.html">Log In</a></h3>
     <h3><a href="../SIGNUP/signup.html">Sign Up</a></h3>

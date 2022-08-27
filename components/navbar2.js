@@ -12,7 +12,7 @@ function mynavbar(){
         </select>
         <select name="" id="">
             <option value="" hidden>Resources</option>
-            <option value="">Education Center</option>
+            <option value=""><a href="./.resources.html">Education Center</a></option>
             <option value="">Expert Directory</option>
             <option value="">Help & Support</option>
             <option value="">Trust & Safety</option>

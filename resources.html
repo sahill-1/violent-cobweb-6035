@@ -8,6 +8,7 @@
     <title>Resources</title>
     <link rel="stylesheet" href="resources.css">
     <link rel="stylesheet" href="./components/navbar2.css">
+    <link rel="stylesheet" href="./components/footer.css">
 </head>
 
 <body>
@@ -162,6 +163,9 @@
         </div>
         <button>SiGN UP NOW</button>
     </div>
+    <div id="footer">
+
+    </div>
 </body>
 </html>
 <script type="module">
@@ -169,5 +173,9 @@
     // console.log('mynavbar: ', mynavbar());
     let navbar2=document.getElementById("navbar2");
     navbar2.innerHTML=mynavbar();
+    import myFooter from "./components/footer.js"
+    // console.log('mynavbar: ', mynavbar());
+    let footer=document.getElementById("footer");
+    footer.innerHTML=myFooter();
 
 </script>

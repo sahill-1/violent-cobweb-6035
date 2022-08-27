@@ -13,7 +13,12 @@
   padding: 15px 30px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-size: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
 }
+
 .left,
 .right {
   width: 40%;
@@ -22,14 +27,17 @@
   align-items: center;
   font-size: 13px;
 }
+
 .right {
   width: 30%;
 }
+
 #navbar h3:hover {
   cursor: pointer;
   color: rgb(247, 124, 144);
 }
-.right a{
+
+.right a {
   text-decoration: none;
   color: grey;
 }
