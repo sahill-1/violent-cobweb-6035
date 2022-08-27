@@ -3,6 +3,12 @@ console.log(myNavbar);
 
 let container = document.getElementById("navbar");
 container.innerHTML = myNavbar();
+
+import myFooter from "../components/footer.js";
+console.log(myFooter);
+
+let contain = document.getElementById("footer");
+contain.innerHTML = myFooter();
 class FormData {
   constructor(F, L, E, P, C1, C2) {
     this.first_name = F;

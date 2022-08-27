@@ -3,6 +3,12 @@ console.log(myNavbar);
 
 let container = document.getElementById("navbar");
 container.innerHTML = myNavbar();
+
+import myFooter from "../components/footer.js";
+console.log(myFooter);
+
+let contain = document.getElementById("footer");
+contain.innerHTML = myFooter();
 let formData = JSON.parse(localStorage.getItem("formdetail")) || [];
 const form = document.querySelector("form");
 

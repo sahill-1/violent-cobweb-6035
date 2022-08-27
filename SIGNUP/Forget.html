@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forget page</title>
+    <link rel="stylesheet" href="../components/navbar.css" />
+    <link rel="stylesheet" href="../components/footer.css" />
     <style>
-      body {
+      #parent {
+      padding: 20px;
         width: 40%;
         margin: auto;
+        margin-top: 50px;
         text-align: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       }
       .btn {
         padding: 8px;
@@ -18,17 +23,26 @@
         border: none;
         margin-top: 5px;
       }
-
-      #form > input {
+   #form > input {
         width: 90%;
         margin: auto;
         padding: 5px;
+        margin-top: 10px;
       }
       p {
         color: #6a6a6a;
+        margin-bottom: 10px;
+      }
+      h1{
+        margin-bottom: 30px;
+      }
+      #footer{
+        margin-top: 20px;
       }
     </style>
   </head>
+  <div id="navbar"></div>
+  <div id="parent">
   <body>
     <h1>Forgot your password?</h1>
     <p>
@@ -41,18 +55,20 @@
       <input type="text" />
       <button class="btn">SEND ME RESET INSTRUCTIONS</button>
     </form>
-    <div id="box">
-      <img
-        src="https://th.bing.com/th/id/OIP.iH331sfZrVrxll7P7MR_7AAAAA?w=275&h=132&c=7&r=0&o=5&dpr=1.25&pid=1.7"
-        alt=""
-      />
-      <h3>Find it first on Indiegogo</h3>
-      <p>Discover new and clever products in the Indiegogo newsletter</p>
-    </div>
-
-    <form id="form">
-      <input type="text" placeholder="Your Enail address" /><br />
-      <button class="btn">SIGN ME UP</button>
-    </form>
+  </div>
+  <div id="footer"></div>
   </body>
 </html>
+<script type="module">
+  import myNavbar from "../components/navbar.js";
+  console.log(myNavbar);
+
+  let container = document.getElementById("navbar");
+  container.innerHTML = myNavbar();
+
+  import myFooter from "../components/footer.js";
+  console.log(myFooter);
+
+  let contain = document.getElementById("footer");
+  contain.innerHTML = myFooter();
+</script>

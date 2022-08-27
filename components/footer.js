@@ -1,5 +1,5 @@
-function myFooter(){
-    return`<div class="top">
+function myFooter() {
+  return `<div class="top">
     <div>
         <h3>EXPLORE</h3>
         <p>What We Do</p>
@@ -45,5 +45,6 @@ function myFooter(){
     <img src="https://cdn-icons-png.flaticon.com/128/3128/3128219.png" alt="">
     <img src="https://cdn-icons-png.flaticon.com/128/2111/2111685.png" alt="">
 </div>
-</div>`
+</div>`;
 }
+export default myFooter;
