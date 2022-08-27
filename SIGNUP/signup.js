@@ -13,13 +13,24 @@ let formData = JSON.parse(localStorage.getItem("formdetail")) || [];
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   let first_name = form.first_name.value;
-
   let second_name = form.second_name.value;
   let email = form.email.value;
   let password = form.password.value;
   let check1 = form.check1.value;
   let check2 = form.check2.value;
 
+  if (first_name === "") {
+    alert("First name is required");
+    return false;
+  }
+  if (second_name === "") {
+    alert("Last name is required");
+    return false;
+  }
+  if (password.length < 5) {
+    alert("Password is required more than 5 words");
+    return false;
+  }
   let check = formData.filter((el) => {
     return el.email === email;
   });
