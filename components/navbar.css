@@ -6,7 +6,7 @@
 } */
 
 #navbar {
-  color: grey;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,12 +32,12 @@
   width: 30%;
 }
 
-#navbar h3:hover {
+#navbar h3:hover ,.right a:hover{
   cursor: pointer;
   color: rgb(247, 124, 144);
 }
 
 .right a {
   text-decoration: none;
-  color: grey;
+  color: black;
 }

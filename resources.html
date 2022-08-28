@@ -118,7 +118,7 @@
         </div>
     </div>
     <p>Browse by Resource Type</p>
-    
+
     <div id="middle-div">
         <div>
             <img src="https://entrepreneur.indiegogo.com/education/wp-content/uploads/sites/4/2017/07/IGG_education-center-articles2-50x50-@2x.png"
@@ -167,15 +167,36 @@
 
     </div>
 </body>
+
 </html>
 <script type="module">
     import mynavbar from "./components/navbar2.js"
     // console.log('mynavbar: ', mynavbar());
-    let navbar2=document.getElementById("navbar2");
-    navbar2.innerHTML=mynavbar();
+    let navbar2 = document.getElementById("navbar2");
+    navbar2.innerHTML = mynavbar();
     import myFooter from "./components/footer.js"
     // console.log('mynavbar: ', mynavbar());
-    let footer=document.getElementById("footer");
-    footer.innerHTML=myFooter();
+    let footer = document.getElementById("footer");
+    footer.innerHTML = myFooter();
 
+    let fees_page = document.getElementById("fees_page");
+
+    fees_page.addEventListener("change", myFeess);
+
+    function myFeess() {
+        let val = fees_page.value;
+        if (val == "fees") {
+            window.location.href = "feesPage.html";
+        }
+    }
+    let resource_page = document.getElementById("resource_page");
+
+    resource_page.addEventListener("change", myEducation);
+
+    function myEducation() {
+        let val = resource_page.value;
+        if (val == "education") {
+            window.location.href = "resources.html";
+        }
+    }
 </script>

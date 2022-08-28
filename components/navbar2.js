@@ -1,18 +1,18 @@
 function mynavbar(){
     return `<div class="left2">
-        <img src="./components/logo.png" alt="">
+    <a href="index.html"><img src="./components/logo.png" alt=""></a>
         <p>For Entrepreneur </p>
-        <select name="" id="">
+        <select name="" id="fees_page">
             <option value="" hidden>How it works</option>
             <option value="">Campaign</option>
             <option value="">In Demand</option>
             <option value="">China Program</option>
-            <option value="">Fees</option>
+            <option value="fees">Fees</option>
             <option value="">Community</option>
         </select>
-        <select name="" id="">
+        <select name="" id="resource_page">
             <option value="" hidden>Resources</option>
-            <option value=""><a href="./.resources.html">Education Center</a></option>
+            <option value="education">Education Center</option>
             <option value="">Expert Directory</option>
             <option value="">Help & Support</option>
             <option value="">Trust & Safety</option>

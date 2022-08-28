@@ -6,30 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>How to Work</title>
     <link rel="stylesheet" href="all.css">
-    link css
 </head>
 <body>
     <div id="navbar2">
         <div class="left2">
             <img src="logo.png" alt="">
             <p>For Entrepreneur </p>
-            <select name="" id="">
-                <option value="" hidden>How it works</option>
-                <option value="">Campaign</option>
-                <option value="">In Demand</option>
-                <option value="">China Program</option>
-                <option value="">Fees</option>
-                <option value="">Community</option>
+            <select name="" id="fees_page">
+                <option value="a" hidden>How it works</option>
+                <option value="b">Campaign</option>
+                <option value="c">In Demand</option>
+                <option value="d">China Program</option>
+                <option value="fees">Fees</option>
+                <option value="e">Community</option>
             </select>
-            <select name="" id="">
+            <select name="" id="resource_page">
                 <option value="" hidden>Resources</option>
-                <option value="">Education Center</option>
+                <option value="education">Education Center</option>
                 <option value="">Expert Directory</option>
                 <option value="">Help & Support</option>
                 <option value="">Trust & Safety</option>
-                
             </select>
             <select name="" id="">
                 <option value="" hidden>About Us</option>
@@ -313,3 +311,27 @@
 </html>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script>
+
+let fees_page=document.getElementById("fees_page");
+
+fees_page.addEventListener("change",myFeess);
+
+function myFeess(){
+   let val=fees_page.value;
+    if(val=="fees"){
+        window.location.href="feesPage.html";
+    }
+}
+let resource_page=document.getElementById("resource_page");
+
+resource_page.addEventListener("change",myFeess);
+
+function myFeess(){
+   let val=resource_page.value;
+    if(val=="education"){
+        window.location.href="resources.html";
+    }
+}
+
+</script>
