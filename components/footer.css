@@ -1,13 +1,4 @@
-* {
-  /* padding: 0%;
-    margin: 0%; */
-  box-sizing: border-box;
-  font-family: benton-sans, Helvetica, "Sans-serif";
-}
-#footer {
-  background-color: #f5f5f5;
-  padding: 20px 0px;
-}
+
 .top {
   width: 70%;
   margin: auto;
@@ -15,6 +6,7 @@
   display: flex;
   font-size: 15px;
   justify-content: space-between;
+  
 }
 .top > div:nth-child(4) {
   width: 25%;
@@ -34,11 +26,16 @@
   width: 100%;
   height: 40px;
 }
-.top > div:nth-child(1),
+/* .top > div:nth-child(1),
 div:nth-child(2),
 div:nth-child(3) {
+<<<<<<< HEAD
   line-height: 30px;
 }
+=======
+  line-height: 10px;
+} */
+>>>>>>> ae70b7cea9c7e6e1862d1b49915ad934383f4acf
 .bottom {
   width: 70%;
   margin: auto;

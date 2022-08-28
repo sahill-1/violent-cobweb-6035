@@ -1,8 +1,9 @@
 import myNavbar from "../components/navbar.js";
-console.log(myNavbar);
-
+// console.log(myNavbar);
 let container = document.getElementById("navbar");
 container.innerHTML = myNavbar();
+
+
 var slides = document.querySelectorAll(".slide");
     var btns = document.querySelectorAll(".btn")
     let currenSlide = 1;

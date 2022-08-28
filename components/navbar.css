@@ -14,9 +14,15 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-size: 10px;
   position: sticky;
+<<<<<<< HEAD
   top: 0;
   z-index: 999;
   background-color: white;
+=======
+    top: 0;
+    z-index: 999;
+    background-color: white;
+>>>>>>> ae70b7cea9c7e6e1862d1b49915ad934383f4acf
 }
 
 .left,
