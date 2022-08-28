@@ -1,6 +1,6 @@
 function mynavbar(){
     return `<div class="left2">
-    <a href="index.html"><img src="./components/logo.png" alt=""></a>
+    <img  src="./components/logo.png" alt="">
         <p>For Entrepreneur </p>
         <select name="" id="fees_page">
             <option value="" hidden>How it works</option>
